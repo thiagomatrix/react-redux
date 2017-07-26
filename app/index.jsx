@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Primeiro, Segundo} from './component'
+import BragaFamily from './bragaFamily'
 
 ReactDOM.render(
-<   div>
-        <Primeiro/>
-        <Segundo/>
+    <div>
+        <BragaFamily />
     </div>
 , document.getElementById('app'))
 
