@@ -1,0 +1,9 @@
+var files = [
+
+  "app.js",
+  "index.html",
+  "manifest.json",
+  "install.js",
+  "img/icon.png",
+];
+
