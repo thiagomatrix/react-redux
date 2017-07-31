@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --inline --hot --https --cert=ssl/certificate.crt --key=ssl/private.key --ca=ssl/ca_bundle.crt" 
+    "dev": "webpack-dev-server --progress --colors --inline --hot" 
   },
+
+  "//": "--https --cert=ssl/certificate.crt --key=ssl/private.key --ca=ssl/ca_bundle.crt",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,3 +23,4 @@
     "webpack-dev-server": "^1.16.2"
   }
 }
+
